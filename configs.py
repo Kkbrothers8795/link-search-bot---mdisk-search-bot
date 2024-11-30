@@ -2,15 +2,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_HASH = "f565b00bbe3ad9c6748e39a3a71d16e7"
+    API_ID = 2532603
+    BOT_OWNER = "7002929294"
+    BOT_TOKEN = "7251010457:AAGOemQb-m_U47bRhxgHbWZUhFt7uyCoiOk"
+    BOT_USERNAME = "Saveboy1_bot"
+    CHANNEL_ID = "-1002056360708"
+    DATABASE_URL = "mongodb+srv://user:user@cluster0.x3e1p.mongodb.net/"
+    USER_SESSION_STRING = "BQAmpPsAwxuT--1jX9xqJ0PkjHlxXrRuqcF-ZjJd_tDXsrT6zo3qtx4f7_lZhoiiI5vu3yU2w2HjktgpJJ8Vyadm9UWlUu-UrIadCzD5ghXTZ9YmQeygTQAXzB0AW2stPfomjspM7q8uwBioSeyoHkBvwkltYdE9w9mwwSXpWf4CuuRvljCkzLSbIxZ7VnYfhSNR0BuZa6y05ziSL-taRULoLQdHN61Hg11j9duOW1r6eT1kC9unpbK1ifCYs6jlPKL1qFP-TXckEa_1_hChiJb0IRvBZCP6IUo29pgE8SqTVe9OGe7m3YNlEBEwECucjgph8QykD903nBqiMNeUM3ihiwNb9wAAAAGhaDiOAA"
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
     
